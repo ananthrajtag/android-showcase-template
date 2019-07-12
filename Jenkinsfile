@@ -1,7 +1,7 @@
 /**
 * Android Jenkinsfile
 */
-node("android"){
+node("LINUX"){
   stage("Checkout"){
     checkout scm
   }
